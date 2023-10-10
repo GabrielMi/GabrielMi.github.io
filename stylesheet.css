@@ -1,0 +1,37 @@
+/* Apply style to the <h1> tag */
+header h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Create and style a class */
+.content-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Apply the class to elements */
+.content-section p {
+    font-size: 18px;
+}
+
+/* Create and style an ID */
+#about {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Change link color on hover */
+a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+/* Change box model properties */
+.content-section {
+    margin: 20px;
+    padding: 15px;
+}
